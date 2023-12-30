@@ -1,27 +1,37 @@
 # mypkgについて
-* このレポジトリは未来ロボティクス学科のロボットシステム学で作成したものです。
-
-
 ![test.bash](https://github.com/MYOYOSHINYA/mypkg/actions/workflows/test.yml/badge.svg)
-* このレポジトリは未来ロボティクス学科のロボットシステム学で作成したものです。
+このレポジトリは未来ロボティクス学科のロボットシステム学で作成したものです。
 
-## plusコマンド
-* 標準入力から読み込んだ数字を足す。
+## talkerコマンド
+パブリッシャを持つノードであり、0から数字をカウントして"countup"というトピックを通じてlistener.pyに送信します
 
+## listenerコマンド
+パブリッシャを持つノードであり、"countup"というトピックを通じてtalker.pyでカウントした数字を
+## トピック
 ## インストール方法
-* githubでrobosys2023を開き、右上の緑色のcodeからHTTPSのURLを取得する。
-* Ubuntu 20.04で、"git clone<取得したコード>"と入力する。
+github、Python、ROS2が利用できる環境で、以下のコマンドを入力する
+$ mkdir -p ros2_ws/src
+$ cd ~/ros2_ws/src
+以下のコマンドで環境をコピーする
+$ git clone git@github.com:MYOYOSHINYA/mypkg.git
+以下のコマンドでダウンロードされていることを確認する
+$ ls
+最後に以下のコマンドを入力してビルドする
+$ cd ~/ros_ws
+
+$ colcon build
+$ source ~/.bashrc
+
 
 ## 実行例
-* seq 5 | ./plus と入力すると１～５を順番にした和の１５が出力される。
+*
 
 ##　必要なソフトウェア
-* python
-    * テスト済み:3.7~3.10
+* ROS2
 
 ## テスト環境
 * Ubuntu 20.04
 
 ## ライセンス
-* このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用されます。
+* BSD-3-Clause License
 * © 2023 Shinya Myoyo
