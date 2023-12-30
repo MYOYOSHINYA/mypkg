@@ -6,10 +6,11 @@
 パブリッシャを持つノードであり、0から数字をカウントして"countup"というトピックを通じてlistener.pyに送信する
 
 ## listenerコマンド
-パブリッシャを持つノードであり、"countup"というトピックを通じてtalker.pyでカウントした数字を出力する
+サブリスクライバを持つノードであり、"countup"というトピックを通じてtalker.pyでカウントした数字を出力する
 ## launchファイル
 複数のノードを一度に立ち上げる
 ## トピック
+*　countup
 "talker.py"が生成した情報を"listene.py"が受け取りそれを出力するための通信経路
 ## インストール方法
 ```bash
@@ -17,7 +18,7 @@
 $ mkdir -p ros2_ws/src'
 $ cd ~/ros2_ws/src'
 # 以下のコマンドで環境をコピーする
-$ git clone git@github.com:MYOYOSHINYA/mypkg.git
+$ git clone https://github.com/MYOYOSHINYA/mypkg.git
 # 以下のコマンドでダウンロードされていることを確認する
 $ ls
 
@@ -36,7 +37,7 @@ talker.pyとlistener.pyを異なる端末で実行する。実行方法は以下
 $ cd ~/ros2_ws
 $ ros2 run mypkg talker
 ```
-Ctrl + C で終了
+
 ```bash
 *　端末２
 $ ros2 run mypkg listener
@@ -60,7 +61,7 @@ $ ros2 run mypkg listener
 [INFO] [1703920884.745594595] [listener]: Listen: 78
 [INFO] [1703920885.260071152] [listener]: Listen: 79
 ```
-Ctrl + C で終了
+端末１、端末２ともに　Ctrl + C で終了
 
 *　launchファイルを利用して一つの端末で出力する
 ```bash

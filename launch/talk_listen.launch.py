@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Myoyo Shinya
-# SPDX-License-Identifier: BSD-3-Clauseimport launch
+# SPDX-License-Identifier: BSD-3-Clause
 
+import launch
 import launch.actions
 import launch.substitutions
 import launch_ros.actions
