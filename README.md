@@ -13,18 +13,23 @@
 ### countup
 "talker.py"が生成した情報を"listene.py"が受け取りそれを出力するための通信経路
 ## インストール方法
+github、Python、ROS2が利用できる環境で、以下のコマンドを入力する
 ```bash
-# github、Python、ROS2が利用できる環境で、以下のコマンドを入力する
 $ mkdir -p ros2_ws/src
 $ cd ~/ros2_ws/src
-# 以下のコマンドで環境をコピーする
+```
+ 
+以下のコマンドで環境をコピーする
+```bash
 $ git clone https://github.com/MYOYOSHINYA/mypkg.git
-# 以下のコマンドでダウンロードされていることを確認する
+```
+以下のコマンドでダウンロードされていることを確認する
+```bash
 $ ls
-
-# 最後に以下のコマンドを入力してビルドする
+```
+最後に以下のコマンドを入力してビルドする
+```bash
 $ cd ~/ros_2ws
-
 $ colcon build
 ```
 
@@ -95,10 +100,10 @@ Ctrl + C で終了
 * Python
 
 ## テスト環境
-* Ubuntu 20.04
 テストには以下のコンテナを使用しています
-
 * ryuichiueda/ubuntu22.04-ros2
+
+* ubunts22.04LTS
 ## ライセンス
 * BSD-3-Clause License
 * © 2023 Shinya Myoyo
