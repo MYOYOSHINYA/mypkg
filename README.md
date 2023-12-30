@@ -10,7 +10,7 @@
 ## launchファイル
 複数のノードを一度に立ち上げる
 ## トピック
-*　countup
+* countup
 "talker.py"が生成した情報を"listene.py"が受け取りそれを出力するための通信経路
 ## インストール方法
 ```bash
@@ -63,7 +63,7 @@ $ ros2 run mypkg listener
 ```
 端末１、端末２ともに　Ctrl + C で終了
 
-*　launchファイルを利用して一つの端末で出力する
+* launchファイルを利用して一つの端末で出力する
 ```bash
 cd ~/ros2_ws
 $ ros2 launch mypkg talk_listen.launch.py
@@ -94,7 +94,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 Ctrl + C で終了
 
 ## 必要なソフトウェア
-* ROS2
+* ROS2 foxy
 * Python3
 
 ## テスト環境
