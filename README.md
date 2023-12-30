@@ -29,14 +29,15 @@ $ source ~/.bashrc
 
 
 ## 実行例
-```bash
+
 talker.pyとlistener.pyを異なる端末で実行する。実行方法は以下の通りです。
+```bash
 * 端末１
 $ cd ~/ros2_ws
 $ ros2 run mypkg talker
-
+```
 Ctrl + C で終了
-
+```bash
 *　端末２
 $ ros2 run mypkg listener
 [INFO] [1703920876.273478009] [listener]: Listen: 61
@@ -58,10 +59,11 @@ $ ros2 run mypkg listener
 [INFO] [1703920884.276677364] [listener]: Listen: 77
 [INFO] [1703920884.745594595] [listener]: Listen: 78
 [INFO] [1703920885.260071152] [listener]: Listen: 79
-
+```
 Ctrl + C で終了
 
 *　launchファイルを利用して一つの端末で出力する
+```bash
 cd ~/ros2_ws
 $ ros2 launch mypkg talk_listen.launch.py
 
@@ -87,7 +89,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703921338.968677827] [listener]: Listen: 15
 [listener-2] [INFO] [1703921339.463813074] [listener]: Listen: 16
 [listener-2] [INFO] [1703921339.963982319] [listener]: Listen: 17
-
+```
 Ctrl + C で終了
 
 ## 必要なソフトウェア
