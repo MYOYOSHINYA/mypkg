@@ -15,8 +15,8 @@
 ## インストール方法
 ```bash
 # github、Python、ROS2が利用できる環境で、以下のコマンドを入力する
-$ mkdir -p ros2_ws/src'
-$ cd ~/ros2_ws/src'
+$ mkdir -p ros2_ws/src
+$ cd ~/ros2_ws/src
 # 以下のコマンドで環境をコピーする
 $ git clone https://github.com/MYOYOSHINYA/mypkg.git
 # 以下のコマンドでダウンロードされていることを確認する
@@ -26,7 +26,6 @@ $ ls
 $ cd ~/ros_2ws
 
 $ colcon build
-$ source ~/.bashrc
 ```
 
 ## 実行例
@@ -34,7 +33,6 @@ $ source ~/.bashrc
 talker.pyとlistener.pyを異なる端末で実行する。実行方法は以下の通りです。
 ```bash
 * 端末１
-$ cd ~/ros2_ws
 $ ros2 run mypkg talker
 ```
 
@@ -65,7 +63,6 @@ $ ros2 run mypkg listener
 
 * launchファイルを利用して一つの端末で出力する
 ```bash
-cd ~/ros2_ws
 $ ros2 launch mypkg talk_listen.launch.py
 
 [INFO] [launch]: All log files can be found below /home/shinya1107/.ros/log/2023-12-30-16-28-50-500195-DESKTOP-CJ9LDDI-8973
@@ -95,11 +92,13 @@ Ctrl + C で終了
 
 ## 必要なソフトウェア
 * ROS2 foxy
-* Python3
+* Python
 
 ## テスト環境
 * Ubuntu 20.04
+テストには以下のコンテナを使用しています
 
+* ryuichiueda/ubuntu22.04-ros2
 ## ライセンス
 * BSD-3-Clause License
 * © 2023 Shinya Myoyo
