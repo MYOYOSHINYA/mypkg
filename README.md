@@ -100,9 +100,6 @@ Ctrl + C で終了
 * Python
 
 ## テスト環境
-テストには以下のコンテナを使用しています
-* ryuichiueda/ubuntu22.04-ros2
-
 * ubunts22.04LTS
 ## ライセンス
 * BSD-3-Clause License
