@@ -1,7 +1,7 @@
 # mypkgについて
 ![test.bash](https://github.com/MYOYOSHINYA/mypkg/actions/workflows/test.yml/badge.svg)
 * このレポジトリは未来ロボティクス学科のロボットシステム学で作成したものです。
-
+* このレポジトリを使用するにはROS2をインストール必要があります。
 ## talkerコマンド
 パブリッシャを持つノードであり、0から数字をカウントして"countup"というトピックを通じてlistener.pyに送信する
 
