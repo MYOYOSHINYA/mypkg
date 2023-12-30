@@ -10,7 +10,7 @@
 ## launchファイル
 複数のノードを一度に立ち上げる
 ## トピック
-* countup
+### countup
 "talker.py"が生成した情報を"listene.py"が受け取りそれを出力するための通信経路
 ## インストール方法
 ```bash
