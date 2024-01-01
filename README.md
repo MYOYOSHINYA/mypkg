@@ -88,5 +88,5 @@ Ctrl + C で終了
 ## ライセンス
 * BSD-3-Clause License
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものである。
-* [リンクテキスト](ryuichiueda/mypkg)
+* [ryuichiueda/mypkg](https://github.com/ryuichiueda/mypkg)
 * © 2023 Shinya Myoyo
