@@ -86,5 +86,7 @@ Ctrl + C で終了
 ## テスト環境
 * ubunts20.04
 ## ライセンス
-* BSD-3-Clause License．
+* BSD-3-Clause License
+* このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものである。
+* ryuichiueda/my_slides robosys_2022
 * © 2023 Shinya Myoyo
