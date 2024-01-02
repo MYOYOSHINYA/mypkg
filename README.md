@@ -13,7 +13,7 @@
 ### countup
 "talker.py"が生成した情報を"listene.py"が受け取りそれを出力するための通信経路
 ## インストール方法
-ubunts上で以下のコマンドを入力してクローンを作成する
+ubuntu上で以下のコマンドを入力してクローンを作成する
 ```bash
 $ git clone https://github.com/MYOYOSHINYA/mypkg.git
 ```
@@ -84,7 +84,7 @@ Ctrl + C で終了
 * Python
 
 ## テスト環境
-* ubunts20.04
+* ubuntu20.04
 ## ライセンス
 * BSD-3-Clause License
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものである。
